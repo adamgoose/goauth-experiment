@@ -61,3 +61,9 @@ http://localhost:9090.
 
 - `GET /` - Public - `{"challenge": "string"}`
 - `GET /api/secret` - Protected - `{"prize":"string","recipient":"string"}`
+
+## Hints
+
+- https://gist.github.com/marians/3b55318106df0e4e648158f1ffb43d38
+- https://github.com/hashicorp/vault-plugin-auth-jwt/blob/main/cli.go
+- https://github.com/gravitational/teleport/blob/master/lib/client/weblogin.go#L293
